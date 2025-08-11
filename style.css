@@ -24,6 +24,11 @@ h1, h2 {
     color: #0077cc;
 }
 
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
 pre {
     background: #eee;
     padding: 10px;
