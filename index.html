@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Deploy a Website on GitHub Pages</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🚀 How to Deploy a Website on GitHub Pages</h1>
+        <p>Follow these steps to host your static site for free.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Step 1: Create a GitHub Repository</h2>
+            <p>Go to <a href="https://github.com" target="_blank">GitHub</a> → Click <strong>New</strong> → 
+            Name your repo (e.g., <code>mywebsite.github.io</code>) → Set it to <strong>Public</strong> → Click <strong>Create Repository</strong>.</p>
+        </section>
+
+        <section>
+            <h2>Step 2: Add Your Website Files</h2>
+            <p>Put your <code>index.html</code>, <code>style.css</code>, and other files into the local folder.</p>
+        </section>
+
+        <section>
+            <h2>Step 3: Push to GitHub</h2>
+            <pre>
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/yourusername/mywebsite.github.io.git
+git push -u origin main
+            </pre>
+        </section>
+
+        <section>
+            <h2>Step 4: Enable GitHub Pages</h2>
+            <p>Go to your repo → <strong>Settings</strong> → <strong>Pages</strong> → 
+            Select branch <code>main</code> and folder <code>root</code> → Click <strong>Save</strong>.</p>
+        </section>
+
+        <section>
+            <h2>Step 5: Visit Your Website</h2>
+            <p>Wait a minute and open: <br>
+            <code>https://yourusername.github.io</code></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Deployment Guide | Made with ❤️ by Me</p>
+    </footer>
+</body>
+</html>
